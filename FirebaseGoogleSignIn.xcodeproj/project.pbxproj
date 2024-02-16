@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92990B92B7EE644002B27A8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92990B82B7EE644002B27A8 /* User.swift */; };
+		B92990BB2B7EE77A002B27A8 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92990BA2B7EE77A002B27A8 /* UserCard.swift */; };
 		B999ED8F2B75BC210096D438 /* FirebaseGoogleSignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B999ED8E2B75BC210096D438 /* FirebaseGoogleSignInApp.swift */; };
 		B999ED912B75BC210096D438 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B999ED902B75BC210096D438 /* ContentView.swift */; };
 		B999ED932B75BC220096D438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B999ED922B75BC220096D438 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B92990B82B7EE644002B27A8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B92990BA2B7EE77A002B27A8 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
 		B999ED8B2B75BC210096D438 /* FirebaseGoogleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseGoogleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B999ED8E2B75BC210096D438 /* FirebaseGoogleSignInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGoogleSignInApp.swift; sourceTree = "<group>"; };
 		B999ED902B75BC210096D438 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				B999EDD82B75C4DC0096D438 /* Helper */,
 				B999ED8E2B75BC210096D438 /* FirebaseGoogleSignInApp.swift */,
 				B999ED902B75BC210096D438 /* ContentView.swift */,
+				B92990BA2B7EE77A002B27A8 /* UserCard.swift */,
+				B92990B82B7EE644002B27A8 /* User.swift */,
 				B999ED922B75BC220096D438 /* Assets.xcassets */,
 				B999ED942B75BC220096D438 /* Preview Content */,
 			);
@@ -247,8 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92990B92B7EE644002B27A8 /* User.swift in Sources */,
 				B9E380A82B75CC3700E7268B /* AppDelegate.swift in Sources */,
 				B999ED912B75BC210096D438 /* ContentView.swift in Sources */,
+				B92990BB2B7EE77A002B27A8 /* UserCard.swift in Sources */,
 				B999ED8F2B75BC210096D438 /* FirebaseGoogleSignInApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
